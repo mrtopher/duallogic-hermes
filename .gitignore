@@ -1,0 +1,24 @@
+# Secrets - DO NOT COMMIT
+.env
+.env.backup
+auth.json
+gateway_state.json
+*.db
+*.db-shm
+*.db-wal
+pairing/
+audio_cache/
+image_cache/
+cache/
+logs/
+webui/
+sandboxes/
+home/
+workspace/
+cron/
+hooks/
+bin/
+*.pid
+*.lock
+models_dev_cache.json
+_skills_prompt_snapshot.json
