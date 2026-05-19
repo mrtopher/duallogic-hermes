@@ -22,3 +22,4 @@ bin/
 *.lock
 models_dev_cache.json
 _skills_prompt_snapshot.json
+.backup-token
