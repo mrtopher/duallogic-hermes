@@ -1,0 +1,5 @@
+User prefers concise, direct responses. Security-first on email/agent setup. No emails sent without express permission — default is read-only. Credentials and agent identity must be fully isolated per-agent, never shared at global ~/.hermes level. Prefers direct CLI-based approaches. Zero tolerance for credential cross-contamination. Uses Hermes WebUI.
+§
+Multi-agent Hermes architecture: "Deux" (deux@duallogic.ai) is a standalone Google Workspace agent with its own dedicated workspace user account. Credentials and identity must be fully isolated per-agent — no global/shared tokens. Uses Hermes WebUI. Also owns chris@duallogic.ai and ben@spiralmarketing.com.
+
+Security hard requirement: agent must NEVER send emails without express permission — default is read-only. User immediately revoked tokens and changed passwords after a token was issued to the wrong account. Zero tolerance for credential cross-contamination. Prefers concise, direct communication and expects to be consulted before significant actions.
